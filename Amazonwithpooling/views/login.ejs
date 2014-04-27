@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home - Home Page | Shopping !s fun - Free Website Template from Templates.com</title>
+<meta charset="utf-8">
+<meta name="description" content="Place your description here">
+<meta name="keywords" content="put, your, keyword, here">
+<meta name="author" content="Templates.com - website templates provider">
+<link rel="stylesheet" href="/css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function()
+{
+   $(".LogIn").click(function () 
+              {            
+               $(".messageLabel").empty();         
+               
+               
+              var pw = $("#password").val();
+              var email = $("#userName").val();
+               if(email == null || email == "" || email == default_value )
+               {
+                  alert('EmailId is blank or invalid');
+                  return false;
+               }
+
+               else if(pw == null || pw == "")
+               {
+                alert('Possword cannot be blank');
+                return false;
+               }
+              
+            });
+          
+              var Input = $('#userName');
+              var default_value = Input.val();
+
+              Input.focus(function() {
+                  if(Input.val() == default_value) Input.val("");
+              }).blur(function(){
+              if(Input.val().length == 0) Input.val(default_value);
+              });          
+              $("#userName").val()="";
+              
+            
+
+});
+
+
+
+</script>
+
+<!--[if lt IE 7]>
+     <link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
+     <script type="text/javascript" src="js/ie_png.js"></script>
+     <script type="text/javascript">
+        ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');
+     </script>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+</head>
+<body id="page1">
+<div class="wrap">
+   <!-- header -->
+   <header>
+      <div class="container">
+          <h1><a href="/home">Shopping !S fun</a></h1> 
+         <nav>
+            <ul>
+               
+            </ul>
+         </nav>
+
+         <form action="" id="search-form">
+            <fieldset>
+            <div class="rowElem">
+
+               <!-- <input type="text"> 
+               <a href="/login" onClick="document.getElementById('search-form').submit()">Search</a>
+               <a href="/login" >LogIn</a>
+               <a href="/register" >Register</a></div>-->
+                <a href="/" >Back</a>
+            </fieldset>
+         </form>
+      </div>
+   </header>
+
+   <div class="container">
+      <!-- aside -->
+      <aside>
+
+         
+
+ <h3>user login</h3>
+         <!-- <ul class="categories">
+            <li><span>Catelog Name : <span></span><input type="text" name="catname" id="Email"></input></span></li>
+            <li><span><input type="submit" name="submit" value="Insert"/></span></li>
+            
+         </ul> -->
+         <form action="/checklogin" method="post" style="width: 138%;">
+      
+      <table width="100%">
+      	<tr>
+				<td>
+					EmailId
+				</td>
+				<td>
+					<input type="text" name="userName" id="userName" value="Email Id" class="tb" tabindex="1"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Password
+				</td>
+				<td>
+					<input type="password" name="password" id="password" class="tb" tabindex="2"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input class="LogIn" type="submit" name="submit" value="LogIn"/>
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+      </table>
+      </form>  </aside>
+      <!-- content -->
+  
+
+</div>
+<!-- footer -->
+<footer>
+   <div class="container">
+      <div class="inside">
+         <div class="wrapper">
+            <div class="fleft">24/7 Customer Service <span>4089871206</div>
+            <!-- <div class="aligncenter"><a rel="nofollow" href="http://www.templatemonster.com" class="new_window">Website template</a> designed by TemplateMonster.com<br>
+               <a href="http://www.templates.com/product/3d-models/" class="new_window">3D Models</a> provided by Templates.com</div> -->
+         </div>
+      </div>
+   </div>
+</footer>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
